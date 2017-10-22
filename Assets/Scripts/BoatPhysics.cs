@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// see www.habrador.com/tutorials/unity-boat-tutorial/
 public class BoatPhysics : MonoBehaviour {
 
 	// Drags
