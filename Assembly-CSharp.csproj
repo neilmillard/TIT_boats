@@ -52,12 +52,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BoatPhysics.cs" />
+     <Compile Include="Assets\Scripts\EndlessWaterSquare.cs" />
      <Compile Include="Assets\Scripts\Flycam.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\ModifyBoatMesh.cs" />
      <Compile Include="Assets\Scripts\MusicPlayer.cs" />
      <Compile Include="Assets\Scripts\TriangleData.cs" />
      <Compile Include="Assets\Scripts\WaterController.cs" />
+     <Compile Include="Assets\Scripts\WaterSquare.cs" />
+     <Compile Include="Assets\Scripts\WaveTypes.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

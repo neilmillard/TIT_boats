@@ -20,7 +20,7 @@ public class WaterController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		current = this;
-		isMoving = false;
+		isMoving = true;
 	}
 	
 	// Get the y coord from whatever wavetype is used
@@ -28,8 +28,7 @@ public class WaterController : MonoBehaviour {
 	{
 		if (isMoving)
 		{
-			// return WaveTypes.SinXWave (position, speed, scale, waveDistance, noiseStrength, noiseWalk, timeSinceStart);
-			return 0f;
+			return WaveTypes.SinXWave (position, speed, scale, waveDistance, noiseStrength, noiseWalk, timeSinceStart);
 		} else {
 			return 0f;
 		}	

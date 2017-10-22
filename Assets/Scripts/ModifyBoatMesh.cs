@@ -133,9 +133,9 @@ using System.Collections.Generic;
         {
             //H is always at position 0
             Vector3 H = vertexData[0].globalVertexPos;
-
-            //Left of H is M
-            //Right of H is L
+		
+            // Left of H is M
+            // Right of H is L
 
             //Find the index of M
             int M_index = vertexData[0].index - 1;
@@ -198,6 +198,7 @@ using System.Collections.Generic;
             //2 triangles below the water  
             underWaterTriangleData.Add(new TriangleData(M, I_M, I_L));
             underWaterTriangleData.Add(new TriangleData(M, I_L, L));
+            
         }
 
         //Build the new triangles where two of the old vertices are above the water
